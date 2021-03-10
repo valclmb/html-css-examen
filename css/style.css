@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+h1,h2{
+    font-family: 'Syne Mono', monospace;
+}
+h1{
+    font-size:50px;
+    margin:150px 0 40px 0;
+}
+h2{
+    font-size:25px;
+    font-weight:bold;
+    margin:40px 0 30px 0;
+}
+h2:nth-of-type(odd){
+    color:rgb(49, 57, 173);
+    text-align:center;
+}
+
+h3{
+    font-weight:bold;
+}
+.bouton{
+    color:white;
+    border:none;
+    background-color:rgb(49, 57, 173);
+    width:175px;
+    padding:10px;
+    margin: 0 auto;
+}
+
+
+
+/* LOGO TAILLE */
+header nav img, footer img{
+    width:80px;
+}
+/*****************************************************
+Début header  
+******************************************************/
+header{
+    background:url(../img/bg-earth.jpg);
+    background-size:cover;
+    background-position:center 7%;
+    padding-bottom:200px;
+}
+
+
+/* nav */
+header nav ul li{
+    margin-left:20px;
+}
+header div p{
+    font-size:16px;
+}
+
+/*************
+Burger menu 
+**************/
+
+header nav div#burgermenu{
+    width:50px;
+    height:2px;
+    background-color:white;
+    margin-top:-15px;
+}
+header nav div#burgermenu::before{
+    content:" ";
+    display:block;
+    width:50px;
+    height:2px;
+    background-color:white;
+    margin-top:10px;
+}
+
+header nav div#burgermenu:after{
+    content:" ";
+    display:block;
+    width:50px;
+    height:2px;
+    background-color:white;
+    margin-top:-22px;
+}
+/*************
+BURGER MENU
+***************/
+
+
+/*****************************************************
+Fin header 
+******************************************************/
+
+/* main bordure */
+main{
+    border-top:10px solid rgb(49, 57, 173);
+    border-bottom:10px solid rgb(49, 57, 173);;
+}
+
+/*****************************************************
+Début section explorations prévues
+******************************************************/
+
+main section#exploration{
+    background-image: url(../img/bg-stars.jpg);
+    padding:15px;
+}
+main section#exploration p{
+    padding:30px 0 30px 0;
+    color:white;
+    margin-bottom:35px;
+}
+/*****************************************************
+Fin section explorations prévues
+******************************************************/
+
+/*****************************************************
+Début section sponspors
+******************************************************/
+
+main section#sponsor img{
+    margin:30px 40px;
+}
+
+/*****************************************************
+Fin section sponspors
+******************************************************/
+
+/*****************************************************
+Début footer
+******************************************************/
+footer {
+    background-color:black;
+    padding:15px;
+}
